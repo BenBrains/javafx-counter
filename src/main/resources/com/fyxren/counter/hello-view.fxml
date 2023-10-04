@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fyxren.counter.HelloController">
+      <Label layoutX="26.0" layoutY="25.0" text="Counter:" />
+      <TextField fx:id="countField" editable="false" layoutX="81.0" layoutY="21.0" prefHeight="25.0" prefWidth="87.0" text="0" />
+      <Button layoutX="179.0" layoutY="21.0" mnemonicParsing="false" onAction="#onAdd" text="Add" />
+      <Button layoutX="231.0" layoutY="21.0" mnemonicParsing="false" onAction="#onReset" text="Reset" />
+</Pane>
